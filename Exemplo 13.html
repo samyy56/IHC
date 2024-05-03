@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 13 - Formulários </title>
+</head>
+
+<body>
+    <form action="paginaDestino.jsp" method="post">
+        <h3>Formulário de Cadastro</h3>
+        <div>
+            <label for="">Nome</label>
+            <br>
+            <input type="text" name="txtNome" id="txtNome" required>
+            <br>
+        </div>
+        <br>
+        <div>
+            <label for="">Data de Nascimento</label>
+            <br>
+            <input type="date" name="txtDataNascimento" id="txtDataNascimento" required>
+            <br>
+        </div>
+        <br>
+        <div>
+            <label for="">Estado Civil</label>
+            <br>
+            <select name="cboEstadoCivil" id="cboEstadoCivil">
+                <option value="1">Casado</option>
+                <option value="2">Solteiro</option>
+                <option value="3">Viúvo</option>
+                <option value="4">Divorciado</option>
+                <option value="5">Tico-tico no fuba</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Sexo</label>
+            <br>
+            <input type="radio" name="rdSexo" id="rdSexo" value="1">Masculino
+            <label for="">Sexo</label>
+            <br>
+            <input type="radio" name="rdSexo" id="rdSexo" value="2">Feminino
+            <br>
+
+        </div>
+        <br>
+        <div>
+            <label for="">Selecione uma ou mais áreas da atuação</label>
+            <br>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="1">Front-End
+            <br>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="2">Back-End
+            <br>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="3">Dados
+            <br>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="4">Infraestrutura
+            <br>
+
+        </div>
+        <br>
+        <div>
+            <label for="">Dados Cadastrados</label>
+            <br>
+            <table border="solid">
+                <tr>
+                    <th>Nome</th>
+                    <th>Data de Nascimento</th>
+                    <th>Estado Civil</th>
+                </tr>
+                <tr>
+                    <td>José das Colves</td>
+                    <td>20/05/2001</td>
+                    <td>Casado</td>
+                </tr>
+                <tr>
+                    <td>Maria das Colves</td>
+                    <td>20/10/2000</td>
+                    <td>Casada</td>
+                </tr>
+                <tr>
+                    <td>Deolane Bezerra</td>
+                    <td>10/10/1997</td>
+                    <td>Solteiro</td>
+                </tr>
+                <tr>
+                    <td>Marinne Inacia</td>
+                    <td>05/01/2010</td>
+                    <td>Solteira</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
