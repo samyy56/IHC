@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exemplo 7 CSS</title>
+    <style>
+        .cardPersonalizado{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-sm">
+
+        <div>
+            <h1>Exemplo CSS Externo - Bootstrap</h1>
+            <div class="card mt-5 .cardPersonalizado">
+                <div class="card-header">
+                    <h5>Cadastro de Pessoa</h5>
+
+                    <div>
+
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Nome</label>
+                                <input type="text"  class="form-control" name="txtnome" id="txtNome">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Data Nascimento</label>
+                                <input type="date"  class="form-control" name="txtDataNascimento" id="txtDataNascimento">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Nome da mãe</label>
+                                <input type="text"  class="form-control" name="txtnomeMae" id="txtNomeMae">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Nome do pai</label>
+                                <input type="text"  class="form-control" name="txtnomePai" id="txtNomePai">
+                            </div>
+
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Nome</th>
+                                        <th scope="col">Data de nascimento</th>
+                                        <th scope="col">Nome mãe</th>
+                                        <th scope="col">Nome Pai</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Rogério Alves</td>
+                                        <td>22/04/1975</td>
+                                        <td>Inês Alves</td>
+                                        <td>José Cícero</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maria Alves</td>
+                                        <td>22/11/1978</td>
+                                        <td>Fabiane Alves</td>
+                                        <td>José Cícero</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rodrigo Doll Apresentador</td>
+                                        <td>22/11/1950</td>
+                                        <td>Juliany Doll</td>
+                                        <td>Jubileu Doll</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                            
+                        </div class="card-footer">
+                            <div class="row">
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-primary form-control">Incluir</button>
+
+                                </div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-primary form-control">Excluir</button>
+
+                                </div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-primary form-control">Pesquisar</button>
+
+                                </div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-primary form-control">Sair</button>
+
+                                </div>
+
+
+                            </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
